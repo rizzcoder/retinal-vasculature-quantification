@@ -25,7 +25,7 @@ class Stage3Tests(unittest.TestCase):
 
     def test_manifest_contains_verified_3_models(self):
         manifest = mod.load_manifest(mod.DEFAULT_MANIFEST)
-        self.assertEqual(manifest['repository'], 'lowvisionresearch/retinal-vasculature-quantification')
+        self.assertEqual(manifest['repository'], 'rizzcoder/retinal-vasculature-quantification')
         self.assertEqual(manifest['release_tag'], 'model-weights-v1.0.0')
         hashes = {e['filename']: e['sha256'] for e in manifest['models']}
         self.assertEqual(hashes, {
