@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "repository": "lowvisionresearch/retinal-vasculature-quantification",
+  "repository": "rizzcoder/retinal-vasculature-quantification",
   "release_tag": "model-weights-v1.0.0",
   "models": [
     {
