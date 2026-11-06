@@ -76,12 +76,12 @@ ETDRS analysis can also be run independently of the accepted-mask step; it uses 
 
 ### 1. Obtain the software
 
-**Without Git (recommended for just users):** On the [project's GitHub page](https://github.com/lowvisionresearch/retinal-vasculature-quantification), choose **Code → Download ZIP** and extract the downloaded folder to a location on your computer.
+**Without Git (recommended for just users):** On the [project's GitHub page](https://github.com/rizzcoder/retinal-vasculature-quantification), choose **Code → Download ZIP** and extract the downloaded folder to a location on your computer.
 
 **Those who wish to develop this framework further can use Git to clone the project onto their computer:**
 
 ```bash
-git clone https://github.com/lowvisionresearch/retinal-vasculature-quantification.git
+git clone https://github.com/rizzcoder/retinal-vasculature-quantification.git
 ```
 
 ### 2. Create the Python environment
